@@ -20,6 +20,10 @@ body{
 
 
 }
+h1{
+    font-family: 'Passion One', cursive;
+    font-size: 50px;
+}
 li{
   
     color: white;
