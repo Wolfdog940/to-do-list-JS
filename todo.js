@@ -27,6 +27,9 @@ button.addEventListener("click",function(){
     lista.addEventListener("click",function(){
         console.log(lista)
         lista.style.color="black"
+        lista.style.backgroundColor="rgba(207, 125, 31, 0.2)"
+        lista.style.b
+        
         lista.innerHTML=add.strike()
         lista.appendChild(newbutton)
     
