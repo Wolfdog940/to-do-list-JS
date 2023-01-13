@@ -1,4 +1,4 @@
-#Todo list
+## Todo list
 
 ![Design preview for the Tip calculator app coding challenge](./Todolist.png)
 
