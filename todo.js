@@ -15,6 +15,8 @@ input.addEventListener("keypress",function(event){
         if (add.length){
         
         let lista=document.createElement("li");
+        
+
         lista.innerHTML=add
         ul.appendChild(lista)
         lista.appendChild(newbutton)
@@ -25,6 +27,7 @@ input.addEventListener("keypress",function(event){
             ul.removeChild(lista)
         
          })
+
         lista.addEventListener("click",function(){
             console.log(lista)
             lista.style.color="black"
@@ -33,6 +36,8 @@ input.addEventListener("keypress",function(event){
             
             lista.innerHTML=add.strike()
             lista.appendChild(newbutton)
+
+            
         
          })
     }
