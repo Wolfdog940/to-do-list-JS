@@ -67,23 +67,13 @@ input{
     border-color: blueviolet;
     
     
+    
 }
 input:focus{
-    outline: 2px solid blueviolet;
+    outline: 4px solid blueviolet;
     color: white;
     
 }
 
-.button{
-    border-radius: 3%; 
-    background: transparent;
-    color:white;
-    border:2px solid rgba(62, 7, 114, 0.682);
-}
 
-.button:focus{
-    border-radius: 3%; 
-    background:3px solid  rgba(62, 7, 114, 0.682);
-    outline: 2px solid blueviolet;
-    color:blueviolet ;
-}
+

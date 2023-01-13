@@ -1,6 +1,4 @@
 let input =document.getElementById("todoInput");
-
-let button =document.getElementById("button")
 let ul=document.getElementById("ul")
 
 input.addEventListener("keypress",function(event){
