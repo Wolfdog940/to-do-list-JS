@@ -59,6 +59,10 @@ color: white;
 border-radius: 15px;
 
 }
+li:hover{
+    transform: scale(1.05, 1.05);
+    margin:4px ;
+}
 
 input{
    
@@ -72,6 +76,7 @@ input{
 input:focus{
     outline: 4px solid blueviolet;
     color: white;
+    transform: scale(1.1, 1.1);
     
 }
 
